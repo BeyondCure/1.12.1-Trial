@@ -1,0 +1,6 @@
+{
+  "parent": "lomofstrialmod:block/material_a_block",
+  "textures": {
+    "all": "lomofstrialmod:block/material_a_block"
+  }
+}

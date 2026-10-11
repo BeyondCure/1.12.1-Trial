@@ -1,5 +1,7 @@
 package com.lomof.trialmod;
 
+import com.lomof.trialmod.block.ModBlocks;
+import com.lomof.trialmod.item.ModCreativeModeTabs;
 import com.lomof.trialmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -23,7 +25,6 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -69,19 +70,9 @@ public class TrialMod {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
-
-        // Register the Deferred Register to the mod event bus so blocks get registered
-        BLOCKS.register(modEventBus);
-        // Register the Deferred Register to the mod event bus so items get registered
-        ITEMS.register(modEventBus);
-        // Register the Deferred Register to the mod event bus so tabs get registered
-        CREATIVE_MODE_TABS.register(modEventBus);
-
-        // Register ourselves for server and other game events we are interested in.
-        // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
-        // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
-        NeoForge.EVENT_BUS.register(this);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -108,6 +99,11 @@ public class TrialMod {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.MATERIAL_A);
             event.accept(ModItems.RAW_MATERIAL_A);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept((ModBlocks.MATERIAL_A_BLOCK));
+            event.accept(ModBlocks.MATERIAL_A_ORE);
         }
     }
 

@@ -1,4 +1,10 @@
 {
   "item.lomofstrialmod.material_a": "Material A",
-  "item.lomofstrialmod.raw_material_a": "Raw Material A"
+  "item.lomofstrialmod.raw_material_a": "Raw Material A",
+
+  "block.lomofstrialmod.material_a_block": "Block of Material A",
+  "block.lomofstrialmod.material_a_ore": "Material A Ore",
+
+  "creativetab.lomofstrialmod.trial_items": "Trial Items",
+  "creativetab.lomofstrialmod.trial_blocks": "Trial Blocks"
 }
