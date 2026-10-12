@@ -18,20 +18,19 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(TrialMod.MODID);
 
-    public static final DeferredBlock<Block> MATERIAL_A_ORE = registerBlock("material_a_ore",
-            () -> new DropExperienceBlock(
-                    UniformInt.of(2, 4),
+    public static final DeferredBlock<Block> URANIUM_ORE = registerBlock("material_a_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2, 4),
                     BlockBehaviour.Properties.of()
-                    .strength(3f)
+                    .strength(2f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
             )
     );
 
-    public static final DeferredBlock<Block> MATERIAL_A_BLOCK = registerBlock("material_a_block",
+    public static final DeferredBlock<Block> URANIUM_BLOCK = registerBlock("material_a_block",
             () -> new Block(
                     BlockBehaviour.Properties.of()
-                    .strength(4f)
+                    .strength(3f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.AMETHYST)
             )

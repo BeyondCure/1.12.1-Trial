@@ -11,8 +11,9 @@ import java.util.Objects;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(TrialMod.MODID);
 
-    public static final DeferredItem<Item> MATERIAL_A = ITEMS.register("material_a",() -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> RAW_MATERIAL_A = ITEMS.register("raw_material_a",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> URANIUM = ITEMS.register("uranium",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RAW_URANIUM = ITEMS.register("raw_uranium",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> R_ICON = ITEMS.register("r_icon",() -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

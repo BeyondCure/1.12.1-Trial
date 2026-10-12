@@ -97,13 +97,13 @@ public class TrialMod {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.MATERIAL_A);
-            event.accept(ModItems.RAW_MATERIAL_A);
+            event.accept(ModItems.URANIUM);
+            event.accept(ModItems.RAW_URANIUM);
         }
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept((ModBlocks.MATERIAL_A_BLOCK));
-            event.accept(ModBlocks.MATERIAL_A_ORE);
+            event.accept((ModBlocks.URANIUM_BLOCK));
+            event.accept(ModBlocks.URANIUM_ORE);
         }
     }
 

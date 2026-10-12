@@ -1,9 +1,9 @@
 {
-  "item.lomofstrialmod.material_a": "Material A",
-  "item.lomofstrialmod.raw_material_a": "Raw Material A",
+  "item.lomofstrialmod.uranium": "Uranium",
+  "item.lomofstrialmod.raw_uranium": "Raw Uranium",
 
-  "block.lomofstrialmod.material_a_block": "Block of Material A",
-  "block.lomofstrialmod.material_a_ore": "Material A Ore",
+  "block.lomofstrialmod.uranium_block": "Block of Uranium",
+  "block.lomofstrialmod.uranium_ore": "Uranium Ore",
 
   "creativetab.lomofstrialmod.trial_items": "Trial Items",
   "creativetab.lomofstrialmod.trial_blocks": "Trial Blocks"
