@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "lomofstrialmod:block/material_a_ore"
+    "all": "lomofstrialmod:block/uranium_ore"
   }
 }
