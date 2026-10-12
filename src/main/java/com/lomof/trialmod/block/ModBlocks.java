@@ -18,7 +18,7 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(TrialMod.MODID);
 
-    public static final DeferredBlock<Block> URANIUM_ORE = registerBlock("material_a_ore",
+    public static final DeferredBlock<Block> URANIUM_ORE = registerBlock("uranium_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
                     BlockBehaviour.Properties.of()
                     .strength(2f)
@@ -27,7 +27,7 @@ public class ModBlocks {
             )
     );
 
-    public static final DeferredBlock<Block> URANIUM_BLOCK = registerBlock("material_a_block",
+    public static final DeferredBlock<Block> URANIUM_BLOCK = registerBlock("uranium_block",
             () -> new Block(
                     BlockBehaviour.Properties.of()
                     .strength(3f)

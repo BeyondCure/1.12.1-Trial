@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "lomofstrialmod:material_a_block",
-    "lomofstrialmod:material_a_ore"
+    "lomofstrialmod:uranium_block",
+    "lomofstrialmod:uranium_ore"
   ]
 }
