@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "lomofstrialmod:item/raw_material_a"
+    "layer0": "lomofstrialmod:item/raw_uranium"
   }
 }

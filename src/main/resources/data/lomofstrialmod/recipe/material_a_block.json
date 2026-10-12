@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "lomofstrialmod:material_a"
+      "item": "lomofstrialmod:uranium"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "lomofstrialmod:material_a_block"
+    "id": "lomofstrialmod:uranium_block"
   }
 }

@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "lomofstrialmod:material_a_block"
+      "item": "lomofstrialmod:uranium_block"
     }
   ],
   "result": {
     "count": 9,
-    "id": "lomofstrialmod:material_a"
+    "id": "lomofstrialmod:uranium"
   }
 }

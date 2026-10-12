@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "lomofstrialmod:material_a_block"
+          "name": "lomofstrialmod:uranium_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "lomofstrialmod:blocks/material_a_block"
+  "random_sequence": "lomofstrialmod:blocks/uranium_block"
 }

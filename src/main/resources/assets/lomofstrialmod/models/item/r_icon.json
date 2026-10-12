@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "lomofstrialmod:item/r_icon"
+  },
+  "texture_size": [32, 32]
+}

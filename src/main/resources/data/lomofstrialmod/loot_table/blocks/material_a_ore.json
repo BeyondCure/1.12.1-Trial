@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "lomofstrialmod:material_a_ore"
+              "name": "lomofstrialmod:uranium_ore"
             },
             {
               "type": "minecraft:item",
@@ -49,7 +49,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "lomofstrialmod:raw_material_a"
+              "name": "lomofstrialmod:raw_uranium"
             }
           ]
         }
@@ -57,5 +57,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "lomofstrialmod:blocks/material_a_ore"
+  "random_sequence": "lomofstrialmod:blocks/uranium_ore"
 }
