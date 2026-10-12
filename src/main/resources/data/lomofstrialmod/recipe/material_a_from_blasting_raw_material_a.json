@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "material_a",
+  "ingredient": {
+    "item": "lomofstrialmod:raw_material_a"
+  },
+  "result": {
+    "id": "lomofstrialmod:material_a"
+  }
+}
