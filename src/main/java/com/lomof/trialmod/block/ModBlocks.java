@@ -1,6 +1,7 @@
 package com.lomof.trialmod.block;
 
 import com.lomof.trialmod.TrialMod;
+import com.lomof.trialmod.block.custom.MagicBlock;
 import com.lomof.trialmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -33,6 +34,14 @@ public class ModBlocks {
                     .strength(3f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.AMETHYST)
+            )
+    );
+
+    public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(
+                    BlockBehaviour.Properties.of()
+                            .strength(2f)
+                            .requiresCorrectToolForDrops()
             )
     );
 

@@ -1,9 +1,11 @@
 {
   "item.lomofstrialmod.uranium": "Uranium",
   "item.lomofstrialmod.raw_uranium": "Raw Uranium",
+  "item.lomofstrialmod.chisel": "Chisel",
 
   "block.lomofstrialmod.uranium_block": "Block of Uranium",
   "block.lomofstrialmod.uranium_ore": "Uranium Ore",
+  "block.lomofstrialmod.magic_block": "Magic Block",
 
   "creativetab.lomofstrialmod.trial_items": "Trial Items",
   "creativetab.lomofstrialmod.trial_blocks": "Trial Blocks"

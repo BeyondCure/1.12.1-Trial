@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "lomofstrialmod:uranium_block",
-    "lomofstrialmod:uranium_ore"
+    "lomofstrialmod:uranium_ore",
+    "lomofstrialmod:magic_block"
   ]
 }
