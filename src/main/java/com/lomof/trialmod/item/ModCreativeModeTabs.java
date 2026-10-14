@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.URANIUM);
                         output.accept(ModItems.RAW_URANIUM);
                         output.accept(ModItems.CHISEL);
+                        output.accept(ModItems.BAMBOO_CHARCOAL);
                     })
                     .build());
 

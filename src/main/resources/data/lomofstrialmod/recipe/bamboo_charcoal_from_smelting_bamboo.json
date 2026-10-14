@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.15,
+  "group": "bamboo_charcoal",
+  "ingredient": {
+    "item": "minecraft:bamboo"
+  },
+  "result": {
+    "id": "lomofstrialmod:bamboo_charcoal"
+  }
+}
