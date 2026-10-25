@@ -1,6 +1,0 @@
-{
-  "parent": "lomofstrialmod:block/magic_block",
-  "textures": {
-    "all": "lomofstrialmod:block/magic_block"
-  }
-}

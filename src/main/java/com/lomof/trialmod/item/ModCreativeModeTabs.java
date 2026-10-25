@@ -37,6 +37,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.URANIUM_BLOCK);
                         output.accept(ModBlocks.URANIUM_ORE);
                         output.accept(ModBlocks.MAGIC_BLOCK);
+                        output.accept(ModBlocks.URANIUM_SLAB);
+                        output.accept(ModBlocks.URANIUM_STAIRS);
+                        output.accept(ModBlocks.URANIUM_VERTICAL_SLAB);
                     })
                     .build());
 
