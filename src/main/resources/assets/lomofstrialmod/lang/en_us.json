@@ -1,10 +1,22 @@
 {
   "item.lomofstrialmod.uranium": "Uranium",
   "item.lomofstrialmod.raw_uranium": "Raw Uranium",
+  "item.lomofstrialmod.chisel": "Chisel",
+  "item.lomofstrialmod.radish": "Radish",
+  "item.lomofstrialmod.bamboo_charcoal": "Bamboo Charcoal",
 
   "block.lomofstrialmod.uranium_block": "Block of Uranium",
   "block.lomofstrialmod.uranium_ore": "Uranium Ore",
+  "block.lomofstrialmod.magic_block": "Magic Block",
 
   "creativetab.lomofstrialmod.trial_items": "Trial Items",
-  "creativetab.lomofstrialmod.trial_blocks": "Trial Blocks"
+  "creativetab.lomofstrialmod.trial_blocks": "Trial Blocks",
+
+  "tooltip.lomofstrialmod.uranium.line1": "A Uranium Ingot",
+  "tooltip.lomofstrialmod.uranium.line2":"It's RADIOACTIVE",
+
+  "tooltip.lomofstrialmod.chisel": "Press §eShift§r for more Information",
+  "tooltip.lomofstrialmod.chisel.shift_down": "This Chisel can chisel Stones into Bricks",
+
+  "tooltip.lomofstrialmod.magic_block.tooltip": "This Block is very §9MAGIC§r"
 }

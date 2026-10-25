@@ -23,6 +23,8 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.URANIUM);
                         output.accept(ModItems.RAW_URANIUM);
+                        output.accept(ModItems.CHISEL);
+                        output.accept(ModItems.BAMBOO_CHARCOAL);
                     })
                     .build());
 
@@ -34,6 +36,10 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.URANIUM_BLOCK);
                         output.accept(ModBlocks.URANIUM_ORE);
+                        output.accept(ModBlocks.MAGIC_BLOCK);
+                        output.accept(ModBlocks.URANIUM_SLAB);
+                        output.accept(ModBlocks.URANIUM_STAIRS);
+                        output.accept(ModBlocks.URANIUM_VERTICAL_SLAB);
                     })
                     .build());
 

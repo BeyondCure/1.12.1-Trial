@@ -1,6 +1,0 @@
-{
-  "parent": "lomofstrialmod:block/uranium_ore",
-  "textures": {
-    "all": "lomofstrialmod:block/uranium_ore"
-  }
-}
