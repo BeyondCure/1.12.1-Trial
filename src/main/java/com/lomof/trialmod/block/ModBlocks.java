@@ -31,7 +31,7 @@ public class ModBlocks {
     public static final DeferredBlock<Block> URANIUM_BLOCK = registerBlock("uranium_block",
             () -> new Block(
                     BlockBehaviour.Properties.of()
-                    .strength(3f)
+                    .strength(2f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.AMETHYST)
             )
