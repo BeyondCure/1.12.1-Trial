@@ -17,11 +17,12 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         basicItem(ModItems.RAW_URANIUM.get());
-        basicItem(ModItems.URANIUM.get());
+        basicItem(ModItems.URANIUM_INGOT.get());
         basicItem(ModItems.RADISH.get());
         basicItem(ModItems.R_ICON.get());
         basicItem(ModItems.BAMBOO_CHARCOAL.get());
         basicItem(ModItems.CHISEL.get());
+        basicItem(ModItems.LEAD_INGOT.get());
     }
 
     public void buttonItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {

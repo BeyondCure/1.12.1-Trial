@@ -26,10 +26,10 @@ public class ModRecipeProvider extends RecipeProvider {
                 .pattern("UUU")
                 .pattern("UUU")
                 .pattern("UUU")
-                .define('U', ModItems.URANIUM)
-                .unlockedBy("has_uranium", has(ModItems.URANIUM)).save(recipeOutput);
+                .define('U', ModItems.URANIUM_INGOT)
+                .unlockedBy("has_uranium", has(ModItems.URANIUM_INGOT)).save(recipeOutput);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.URANIUM, 9)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.URANIUM_INGOT, 9)
                 .requires(ModBlocks.URANIUM_BLOCK)
                 .unlockedBy("has_uranium_block", has(ModBlocks.URANIUM_BLOCK)).save(recipeOutput);
 
@@ -42,15 +42,15 @@ public class ModRecipeProvider extends RecipeProvider {
                 ).unlockedBy("has_bamboo", has(Items.BAMBOO)) // 配方书解锁条件
                 .save(recipeOutput, "lomofstrialmod:bamboo_charcoal_from_smelting"); // 保存的路径名
 
-        oreSmelting(recipeOutput, URANIUM_SMELTABLE, RecipeCategory.MISC, ModItems.URANIUM, 0.25f, 200, "uranium");
-        oreBlasting(recipeOutput, URANIUM_SMELTABLE, RecipeCategory.MISC, ModItems.URANIUM, 0.25f, 100, "uranium");
+        oreSmelting(recipeOutput, URANIUM_SMELTABLE, RecipeCategory.MISC, ModItems.URANIUM_INGOT, 0.25f, 200, "uranium");
+        oreBlasting(recipeOutput, URANIUM_SMELTABLE, RecipeCategory.MISC, ModItems.URANIUM_INGOT, 0.25f, 100, "uranium");
 
-        stairBuilder(ModBlocks.URANIUM_STAIRS, Ingredient.of(ModItems.URANIUM))
+        stairBuilder(ModBlocks.URANIUM_STAIRS, Ingredient.of(ModItems.URANIUM_INGOT))
                 .group("uranium")
-                .unlockedBy("has_uranium", has(ModItems.URANIUM))
+                .unlockedBy("has_uranium", has(ModItems.URANIUM_INGOT))
                 .save(recipeOutput);
 
-        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.URANIUM_SLAB.get(), ModItems.URANIUM.get());
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.URANIUM_SLAB.get(), ModItems.URANIUM_INGOT.get());
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

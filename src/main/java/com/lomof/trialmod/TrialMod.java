@@ -1,6 +1,7 @@
 package com.lomof.trialmod;
 
 import com.lomof.trialmod.block.ModBlocks;
+import com.lomof.trialmod.component.ModDataComponents;
 import com.lomof.trialmod.item.ModCreativeModeTabs;
 import com.lomof.trialmod.item.ModItems;
 import org.slf4j.Logger;
@@ -74,6 +75,8 @@ public class TrialMod {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
+        ModDataComponents.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -97,7 +100,7 @@ public class TrialMod {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.URANIUM);
+            event.accept(ModItems.URANIUM_INGOT);
             event.accept(ModItems.RAW_URANIUM);
         }
 

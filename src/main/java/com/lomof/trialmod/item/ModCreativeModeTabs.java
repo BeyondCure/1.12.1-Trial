@@ -21,10 +21,11 @@ public class ModCreativeModeTabs {
                     .icon(()->new ItemStack(ModItems.R_ICON.get()))
                     .title(Component.translatable("creativetab.lomofstrialmod.trial_items"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.URANIUM);
+                        output.accept(ModItems.URANIUM_INGOT);
                         output.accept(ModItems.RAW_URANIUM);
                         output.accept(ModItems.CHISEL);
                         output.accept(ModItems.BAMBOO_CHARCOAL);
+                        output.accept(ModItems.LEAD_INGOT);
                     })
                     .build());
 
