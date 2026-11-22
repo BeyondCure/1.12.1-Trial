@@ -1,14 +1,26 @@
 {
   "item.lomofstrialmod.uranium": "铀",
+  "item.lomofstrialmod.uranium_ingot": "铀锭",
   "item.lomofstrialmod.raw_uranium": "未加工的铀矿",
+  "item.lomofstrialmod.geiger_counter": "盖革计数器",
   "item.lomofstrialmod.chisel": "凿子",
   "item.lomofstrialmod.radish": "萝卜",
   "item.lomofstrialmod.bamboo_charcoal": "竹炭",
+  "item.lomofstrialmod.lead_helmet": "铅头盔",
+  "item.lomofstrialmod.lead_chestplate": "铅胸甲",
+  "item.lomofstrialmod.lead_leggings": "铅护腿",
+  "item.lomofstrialmod.lead_boots": "铅靴子",
+
+  "attribute.lomofstrialmod.radiation_clearance": "辐射清除速度",
+  "attribute.lomofstrialmod.radiation_resistance": "辐射抗性",
 
   "block.lomofstrialmod.uranium_block": "铀块",
   "block.lomofstrialmod.uranium_ore": "铀矿石",
   "block.lomofstrialmod.magic_block": "魔法方块",
 
   "creativetab.lomofstrialmod.trial_items": "实验物品",
-  "creativetab.lomofstrialmod.trial_blocks": "实验方块"
+  "creativetab.lomofstrialmod.trial_blocks": "实验方块",
+
+  "tooltip.lomofstrialmod.uranium.line1": "一块铀锭",
+  "tooltip.lomofstrialmod.uranium.line2":"放射性的"
 }

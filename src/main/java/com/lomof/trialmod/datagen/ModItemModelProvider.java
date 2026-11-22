@@ -23,6 +23,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.BAMBOO_CHARCOAL.get());
         basicItem(ModItems.CHISEL.get());
         basicItem(ModItems.LEAD_INGOT.get());
+        basicItem(ModItems.LEAD_HELMET.get());
+        basicItem(ModItems.LEAD_CHESTPLATE.get());
+        basicItem(ModItems.LEAD_LEGGINGS.get());
+        basicItem(ModItems.LEAD_BOOTS.get());
     }
 
     public void buttonItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {

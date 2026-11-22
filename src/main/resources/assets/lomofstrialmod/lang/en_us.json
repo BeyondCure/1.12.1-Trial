@@ -1,9 +1,18 @@
 {
   "item.lomofstrialmod.uranium": "Uranium",
+  "item.lomofstrialmod.uranium_ingot": "Uranium Ingot",
   "item.lomofstrialmod.raw_uranium": "Raw Uranium",
+  "item.lomofstrialmod.geiger_counter": "Geiger Counter",
   "item.lomofstrialmod.chisel": "Chisel",
   "item.lomofstrialmod.radish": "Radish",
   "item.lomofstrialmod.bamboo_charcoal": "Bamboo Charcoal",
+  "item.lomofstrialmod.lead_helmet": "Lead Helmet",
+  "item.lomofstrialmod.lead_chestplate": "Lead Chestplate",
+  "item.lomofstrialmod.lead_leggings": "Lead Leggings",
+  "item.lomofstrialmod.lead_boots": "Lead Boots",
+
+  "attribute.lomofstrialmod.radiation_clearance": "Radiation Clearance",
+  "attribute.lomofstrialmod.radiation_resistance": "Radiation Resistance",
 
   "block.lomofstrialmod.uranium_block": "Block of Uranium",
   "block.lomofstrialmod.uranium_ore": "Uranium Ore",

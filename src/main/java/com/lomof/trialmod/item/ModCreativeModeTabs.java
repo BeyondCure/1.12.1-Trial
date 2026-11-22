@@ -26,6 +26,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CHISEL);
                         output.accept(ModItems.BAMBOO_CHARCOAL);
                         output.accept(ModItems.LEAD_INGOT);
+                        output.accept(ModItems.GEIGER_COUNTER);
+                        output.accept(ModItems.LEAD_HELMET);
+                        output.accept(ModItems.LEAD_CHESTPLATE);
+                        output.accept(ModItems.LEAD_LEGGINGS);
+                        output.accept(ModItems.LEAD_BOOTS);
                     })
                     .build());
 

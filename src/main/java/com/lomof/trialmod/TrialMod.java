@@ -1,7 +1,11 @@
 package com.lomof.trialmod;
 
+import com.lomof.trialmod.attachment.ModAttachments;
+import com.lomof.trialmod.attribute.ModAttributes;
 import com.lomof.trialmod.block.ModBlocks;
 import com.lomof.trialmod.component.ModDataComponents;
+import com.lomof.trialmod.datamap.ModDataMaps;
+import com.lomof.trialmod.item.ModArmorMaterials;
 import com.lomof.trialmod.item.ModCreativeModeTabs;
 import com.lomof.trialmod.item.ModItems;
 import org.slf4j.Logger;
@@ -76,6 +80,10 @@ public class TrialMod {
         ModBlocks.register(modEventBus);
 
         ModDataComponents.register(modEventBus);
+        ModAttachments.register(modEventBus);
+        ModDataMaps.register(modEventBus);
+        ModAttributes.register(modEventBus);
+        ModArmorMaterials.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

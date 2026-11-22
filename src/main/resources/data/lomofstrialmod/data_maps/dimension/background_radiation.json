@@ -1,0 +1,7 @@
+{
+  "values": {
+    "minecraft:overworld": 1.0,
+    "minecraft:the_nether": 10.0,
+    "minecraft:the_end": 5.0
+  }
+}
